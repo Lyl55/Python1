@@ -45,9 +45,16 @@ print("Number is {}".format(num2))
 
 
 #Password
-"""a=input()
-if(len(a)>=8 and len(a)<=13):
+"""
+count = 0
+while count<3:
+  print('Enter password:')
+  a=input()
+  if(len(a)>=8 and len(a)<=13):
     print('Successfully')
-else:
-    print('Incorrect password!!!')"""
+  else:
+    print('Incorrect password!!!')
+    count+=1
+print("Try again")
+"""
     
